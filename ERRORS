@@ -1,0 +1,7 @@
+pasv@bt:~/code/Testing$ g++ classes.cpp 
+classes.cpp:7: error: return type specification for constructor invalid
+classes.cpp:12: error: return type specification for destructor invalid
+classes.cpp: In function ‘int main(int, char**)’:
+classes.cpp:6: error: ‘int parent_class::i’ is inaccessible
+classes.cpp:30: error: within this context
+
