@@ -18,7 +18,7 @@ class parent_class {
 		}
 };
 
-class child_class : parent_class {
+class child_class : public parent_class {
 	public:
 
 };
@@ -27,5 +27,5 @@ class child_class : parent_class {
 int main(int argc, char **argv) {
 	parent_class test1;
 	child_class test2;
-	//cout << "test2.i = " << test2.i << endl;
+	cout << "test2.i = " << test2.i << endl;
 }
